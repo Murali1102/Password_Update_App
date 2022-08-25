@@ -8,11 +8,6 @@ conn.close()
 app = Flask(__name__)
 app.secret_key='_privatekey_'
 
-# @app.route('/')
-# def check():
-# 	return render_template('index.html')
-
-
 @app.route('/',methods=['POST','GET'])
 def add_data():
     if request.method=='POST':
