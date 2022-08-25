@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+    <meta charset="utf-8">
+	<title> Project </title>
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <form class="box" action="/update_record" method="POST">
+        <h1>update PAGE</h1>
+        <input type="text" name="username" placeholder="Enter Username" id="username"  required>
+        <input type="password" name="password" placeholder="Enter password" id="password" required>
+        <input type="submit"  value="update">
+    </form>
+</body>
+</html>
+
+
+<form class="box">
+    <form class="box" action="/update_record" method="POST">
+        <h1>UPDATE PAGE</h1>
+        <input type="password" name="password" placeholder="Enter password" id="password">
+        <input type="submit"  value="update">
+    </form>
+
